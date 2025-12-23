@@ -89,13 +89,11 @@ DB_NAME=booking
 ```
 ### Install dependencies
 ```bash
-Copy code
 cd server
 npm install
 ```
 ### Start the backend
 ```bash
-Copy code
 npm run start:dev
 ```
 The backend will be available at:
@@ -110,7 +108,6 @@ POST /bookings
 
 Request body example:
 ```json
-Copy code
 {
   "name": "John Doe",
   "email": "john@example.com",
